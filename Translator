@@ -12,7 +12,7 @@
 
 if not game['Loaded'] then game['Loaded']:Wait() end; repeat wait(.06) until game:GetService('Players').LocalPlayer ~= nil
 
-local YourLang = "en" 
+local YourLang = "vi" 
 
 local googlev = isfile'googlev.txt' and readfile'googlev.txt' or ''
 
